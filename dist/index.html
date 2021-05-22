@@ -1,1 +1,18 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script src="https://kit.fontawesome.com/a538d6fa29.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><title>Check-Weather</title></head><body class="background1"><header><nav class="navbar navbar-light text-light"><form class="form-inline" id="searchbox"><div class="input-group"><div class="input-group-prepend"><button class="input-group-text" id="searchicon"><i class="fas fa-search"></i></button></div><input class="form-control" placeholder="Search by city name" id="location" aria-describedby="basic-addon1"></div><div><span class="error-txt" id="errortxt">Invalid location!</span></div></form></nav></header><div class="container w3-animate-zoom"><img class="weathericon" src="http://openweathermap.org/img/wn/10n@2x.png" width="50px" height="50px" alt=""><p class="weathercondition"></p><h1 class="location"></h1><a id="celcius" class="temparature show"></a> <a id="fahrenheit" class="temparature none"></a><p class="feels-like"></p><p class="humidity"></p><p class="windspeed"></p></div><footer class=""><div class="flexfooter"><p><small>Copyright &copy; All rights reserved - by Lamia$risty</small></p></div></footer><script src="main.js"></script></body></html>
+Html Webpack Plugin:
+<pre>
+  Error: The loader "/home/olamide/projects/Weather-app/node_modules/html-webpack-plugin/lib/loader.js!/home/  olamide/projects/Weather-app/src/index.html" didn't return html.
+  
+  - index.js:330 HtmlWebpackPlugin.evaluateCompilationResult
+    [Weather-app]/[html-webpack-plugin]/index.js:330:24
+  
+  - index.js:237 
+    [Weather-app]/[html-webpack-plugin]/index.js:237:22
+  
+  - task_queues.js:97 processTicksAndRejections
+    internal/process/task_queues.js:97:5
+  
+  - async Promise.all
+  
+  - async Promise.all
+  
+</pre>

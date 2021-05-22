@@ -19,7 +19,6 @@ module.exports = {
           'sass-loader',
         ],
       },
-
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/,
         use: {
@@ -51,7 +50,6 @@ module.exports = {
   plugins: [
     new Htmlwebpackplugin({
       template: './src/index.html',
-      filename: './index.html',
     }),
     new Minicss({
       filename: '[name].css',
@@ -62,11 +60,4 @@ module.exports = {
       jQuery: 'jquery',
     }),
   ],
-
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    compress: true,
-    port: 9000,
-  },
-
 };
