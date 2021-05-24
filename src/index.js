@@ -1,4 +1,3 @@
-import 'bootstrap';
 import './style/main.scss';
 
 const searchBox = document.getElementById('searchbox');

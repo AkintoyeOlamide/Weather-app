@@ -12,38 +12,38 @@ module.exports = {
   },
   module: {
     rules: [{
-        test: /\.(scss|sass|css)$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-        ],
-      },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/,
-        use: {
-          loader: 'file-loader',
-          options: {
-            esModule: false,
-          },
+      test: /\.(scss|sass|css)$/,
+      use: [
+        'style-loader',
+        'css-loader',
+        'sass-loader',
+      ],
+    },
+    {
+      test: /\.(png|svg|jpg|jpeg|gif)$/,
+      use: {
+        loader: 'file-loader',
+        options: {
+          esModule: false,
         },
       },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
+    },
+    {
+      test: /\.js$/,
+      exclude: /node_modules/,
+      use: {
+        loader: 'babel-loader',
+      },
+    },
+    {
+      test: /\.html$/,
+      use: [{
+        loader: 'html-loader',
+        options: {
+          minimize: true,
         },
-      },
-      {
-        test: /\.html$/,
-        use: [{
-          loader: 'html-loader',
-          options: {
-            minimize: true
-          },
-        }, ],
-      },
+      }],
+    },
     ],
 
   },
