@@ -25,7 +25,7 @@ To get this project up and running locally, "npm install" is needed to be run in
 
 1. Open Terminal.
 2. Navigate to your desired location to download the contents of this repository.
-3. Copy and paste the following code into the Terminal: git clone https://github.com/LamiaSristy/ToDo-List
+3. Copy and paste the following code into the Terminal: git clone https://github.com/AkintoyeOlamide/Weather-app
 4. cd to the folder "dist".
 5. click on the "index.html".
 
