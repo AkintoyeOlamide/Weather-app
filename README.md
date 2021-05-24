@@ -32,12 +32,11 @@ To get this project up and running locally, "npm install" is needed to be run in
 
 ## Author Details::
 
-👤 **Lamia Sristy**
+👤 **AKintoye**
 
-- Github: [@LamiaSristy](https://github.com/LamiaSristy)
-- Linkedin: [@LamiaSristy](https://www.linkedin.com/in/lamia-hemayet-sristy/)
-- E-mail: <a href="mailto:lamiasristy@gmail.com?subject=Hello Lamia!">Email</a>  
-- Twitter: [@LamiaSristy](https://twitter.com/lsristy1)
+- Github: [@AkintoyeOlamide](https://github.com/AkintoyeOlamide)
+- Linkedin: [@LamiaSristy](https://www.linkedin.com/in/Akintoye-Olamide/)
+
 
 ## Show your support
 

@@ -32,7 +32,7 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(217, 255, 0);
 }
 
 a:hover {
@@ -80,9 +80,7 @@ a:hover {
 .container {
   margin-top: 50px;
   padding: 50px;
-  background-color: rgba(255, 255, 255, 0.5) !important;
-  color: rgb(27, 22, 66);
-  border: 1px dotted rgb(27, 22, 66);
+  color: #fff;
   border-radius: 10px;
   text-align: center;
 }

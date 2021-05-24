@@ -82,8 +82,7 @@ const reset = () => {
 
 const getWeatherData = async (location) => {
   const response = await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?APPID=85543fa448f54a66d6f9b8c88d388027&q=${location}`,
-    {
+    `https://api.openweathermap.org/data/2.5/weather?APPID=85543fa448f54a66d6f9b8c88d388027&q=${location}`, {
       mode: 'cors',
     },
   );
@@ -112,4 +111,4 @@ const submitHandler = (e) => {
 
 searchBox.addEventListener('submit', submitHandler);
 searchIcon.addEventListener('click', submitHandler);
-getWeatherData('Netrokona');
+getWeatherData('Lagos');
