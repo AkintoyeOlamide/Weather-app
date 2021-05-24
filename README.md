@@ -35,7 +35,7 @@ To get this project up and running locally, "npm install" is needed to be run in
 👤 **AKintoye**
 
 - Github: [@AkintoyeOlamide](https://github.com/AkintoyeOlamide)
-- Linkedin: [@LamiaSristy](https://www.linkedin.com/in/Akintoye-Olamide/)
+- Linkedin: [@Akintoyeolamide](https://www.linkedin.com/in/Akintoye-Olamide/)
 
 
 ## Show your support
