@@ -3,7 +3,7 @@ This project is a weather forecast site, using the weather API. Here a user is a
 
 ## Live-Demo
 
-[Check-Weather](https://lamiasristy.github.io/Weather-App-JS/)
+[Check-Weather](https://rawcdn.githack.com/AkintoyeOlamide/Weather-app/207978c5aa3ec7052fbbe3ade794f6c3556d2cc6/src/index.html)
 
 ## Screen-shots:
 <img src="assets/images/screenShot.png">
