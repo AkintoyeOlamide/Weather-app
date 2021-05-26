@@ -1,9 +1,37 @@
-import { ProcessData } from './processdata';
+
+// const searchBox = document.getElementById('searchbox');
+// const searchIcon = document.getElementById('searchicon');
+// const errorTxt = document.getElementById('errortxt');
+// const input = document.getElementById('location');
+
+const containerEl = document.querySelector('.container');
+const weatherConditionEl = document.querySelector('.weathercondition');
+const locationEl = document.querySelector('.location');
+const temparatureEl = document.querySelector('#celcius');
+const temparature2El = document.querySelector('#fahrenheit');
+
+const temparatureFeelsLikeEl = document.querySelector('.feels-like');
+const humidityEl = document.querySelector('.humidity');
+const windSpeedEl = document.querySelector('.windspeed');
+const weatherIcon = document.querySelector('.weathericon');
+const bodyEl = document.querySelector('body');
 
 const displayData = (newData) => {
-  containerEl.classList.add('w3-animate-zoom');
+  // const weatherConditionEl = document.querySelector('.weathercondition');
+  // const locationEl = document.querySelector('.location');
+  // const temparatureEl = document.querySelector('#celcius');
+  // const temparature2El = document.querySelector('#fahrenheit');
+
+  // const temparatureFeelsLikeEl = document.querySelector('.feels-like');
+  // const humidityEl = document.querySelector('.humidity');
+  // const windSpeedEl = document.querySelector('.windspeed');
+  // const weatherIcon = document.querySelector('.weathericon');
+
+  // const containerEl = document.querySelector('.container');
+
+    containerEl.classList.add('w3-animate-zoom');
   if (newData.weatherMain === 'Rain') bodyEl.classList.add('background-rain');
-  else if (newData.weatherMain === 'Thunderstorm') bodyEl.classList.add('background-thunder');
+  else if (newData.weatherMain === 'Thunderstorm') bodyEl.classList.add('background-Thunder');
   else if (newData.weatherMain === 'Clouds') bodyEl.classList.add('background-cloud');
   else if (newData.weatherMain === 'Snow') bodyEl.classList.add('background-snow');
   else bodyEl.classList.add('background1');
@@ -31,5 +59,7 @@ const displayData = (newData) => {
   humidityEl.textContent = `Humidity: ${newData.humidity} % `;
   windSpeedEl.textContent = `Wind-Speed: ${newData.wind} MPH`;
 };
+
+
 
 export default displayData;
