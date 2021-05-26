@@ -1,4 +1,3 @@
-
 const processData = (weatherInfo) => {
   const myData = {
     location: weatherInfo.name,

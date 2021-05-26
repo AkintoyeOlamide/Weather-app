@@ -1,8 +1,17 @@
-import displayData from "./displaydata";
-import processData from "./processdata";
+import displayData from './displaydata';
+import processData from './processdata';
 
 const searchBox = document.getElementById('searchbox');
-// const errorTxt = document.getElementById('errortxt');
+
+const errorTxt = document.getElementById('errortxt');
+
+const throwErrorMsg = () => {
+  errorTxt.style.display = 'block';
+};
+
+const reset = () => {
+  searchBox.reset();
+};
 
 const getWeatherData = async (location) => {
   const response = await fetch(
@@ -20,16 +29,5 @@ const getWeatherData = async (location) => {
     reset();
   }
 };
-
-const errorTxt = document.getElementById('errortxt');
-const throwErrorMsg = () => {
-  errorTxt.style.display = 'block';
-};
-
-const reset = () => {
-  searchBox.reset();
-};
-
-
 
 export default getWeatherData;
